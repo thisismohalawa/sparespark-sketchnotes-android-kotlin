@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/noteListView">
+
+    <fragment
+        android:id="@+id/noteListView"
+        android:name="sparespark.sketchnotes.notes.notelist.NoteListView"
+        android:label="NoteListView">
+        <action
+            android:id="@+id/toLoginActivity"
+            app:destination="@id/loginActivity" />
+        <action
+            android:id="@+id/toNoteDetailView"
+            app:destination="@id/noteDetailView" />
+
+        <action
+            android:id="@+id/toNoteFilterView"
+            app:destination="@+id/noteFilterView" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/noteDetailView"
+        android:name="sparespark.sketchnotes.notes.notedetail.NoteDetailView"
+        android:label="NoteDetailView">
+        <argument
+            android:name="note"
+            app:argType="sparespark.sketchnotes.data.model.note.Note" />
+        <action
+            android:id="@+id/toNoteListView"
+            app:destination="@id/noteListView" />
+
+    </fragment>
+
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="sparespark.sketchnotes.login.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/login_view" />
+
+
+    <fragment
+        android:id="@+id/noteFilterView"
+        android:name="sparespark.sketchnotes.notes.notefilter.NoteFilterView"
+        android:label="NoteFilterView">
+        <action
+            android:id="@+id/toNoteDetailView"
+            app:destination="@id/noteDetailView" />
+    </fragment>
+
+</navigation>

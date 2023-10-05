@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/matchMatch_">
+
+    <LinearLayout
+        style="@style/matchWrap_"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:padding="@dimen/_15sdp">
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/mainInfoTitle"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:text="@string/login"
+            android:textColor="@color/blue_200" />
+
+        <TextView
+            android:id="@+id/txt_login_status"
+            style="@style/mainTitle_" />
+
+        <TextView
+            android:id="@+id/txt_storage_info_status"
+            style="@style/mainTitle_" />
+
+        <ImageView
+            android:id="@+id/img_storage_info_status"
+            style="@style/gifImg_"
+            tools:ignore="ContentDescription" />
+
+        <ProgressBar
+            android:id="@+id/progress_circular"
+            style="@style/progress_" />
+
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_login"
+        style="@style/actionBlueButton_"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

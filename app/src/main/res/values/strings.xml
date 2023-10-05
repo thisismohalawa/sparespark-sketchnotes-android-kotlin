@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Paper Planner</string>
+    <string name="about">About</string>
+
+    <!--NoteList-->
+    <string name="error_updating_token">Error While Updating Token.</string>
+
+    <!--Login string-->
+    <string name="sign_in_">SIGN IN ?</string>
+    <string name="sign_out_">SIGN OUT ?</string>
+    <string name="login">Login Status ?</string>
+    <string name="login_storage_status">Login &amp;\nStorage\nStatus?</string>
+    <string name="sync_success">Synced Successfully.</string>
+    <string name="error_sync">Error While Syncing.</string>
+    <string name="signed_in_successfully">Signed in successfully.</string>
+    <string name="signed_out_title">You\'re currently signed out.</string>
+    <string name="cannot_sign_in">You cannot sign in right now, the device\'s local database will be used.</string>
+    <string name="sign_in_storage_info">Your data is now stored on our secured servers, you can sign out to use your device\'s local database. But be sure that you won\'t be able to share or receive a memo and also your data will be lost if an error occurs or the application is uninstalled.</string>
+    <string name="sign_out_storage_info">Data is being stored in your device\'s local database, you can sign in to use our servers that guarantee security and  access at any time from any device using your email address.</string>
+
+    <!--Common-->
+    <string name="update">Update</string>
+    <string name="copy">Copy</string>
+    <string name="copied">Copied.</string>
+    <string name="confirm">Confirm.</string>
+    <string name="delete">Delete Permanently</string>
+    <string name="login_required">Login required.</string>
+    <string name="error_try_again">Error Try Again!</string>
+    <string name="press_again_to_exit">Click again to exit the app.</string>
+
+    <!--Note Details-->
+    <string name="shared_by">Shared by:</string>
+    <string name="shared">Shared.</string>
+    <string name="shared_succ">Shared Successfully.</string>
+    <string name="only_you">Only you.</string>
+    <string name="cannot_update_note">Couldn\'t update note!</string>
+    <string name="could_not_get_shared_user_data">Couldn\'t access shared user data!</string>
+    <string name="cannot_user_current_email">Cannot share the memo with your email address.</string>
+    <string name="invalid_email">Invalid Email Address.</string>
+    <string name="user_doesn_not_exist">The email address might not exist on our servers.</string>
+    <string name="share_with_email">Share with example@mail.io</string>
+    <string name="cancel_sharing">Cancel sharing?</string>
+    <string name="share_icon_hint">Use the \"add\" icon if you want to start share the memo with the target address.</string>
+    <string name="store_aa">Add \"Aa\" text to your memo list?</string>
+    <string name="follow_link">Follow Link</string>
+    <string name="view">View</string>
+    <string name="Invite">Invite.</string>
+    <string name="invite_text">Hey, I am using paper planner mobile application for memo sharing, please download the app to get in touch with you.
+        \nhttps://play.google.com/store/apps/details?id=sparespark.sketchnotes</string>
+
+
+    <!--System-->
+    <string name="error_while_loading">Error while loading data</string>
+    <string name="error_while_app_updating">Couldn\'t update app last version.</string>
+    <string name="share_content">Share Text</string>
+    <string name="cannot_update_user">Couldn\'t update user!</string>
+    <string name="share_note_hint">Share the memo with anyone, Login required.</string>
+    <string name="go_on">Continue.</string>
+    <string name="Skip">Skip.</string>
+    <string name="schedule_aa">Schedule \"Aa\" as a new future plan?</string>
+    <string name="plan_scheduled_for">Plan is scheduled for\n</string>
+
+    <!--Login-->
+
+
+    <!--Wallet-->
+    <string name="wallet">Wallet</string>
+    <string name="store_0">Store \"0.0\" on your wallet?</string>
+    <string name="total_">Total:\t</string>
+    <string name="empty">Empty!</string>
+    <string name="plus">+</string>
+    <string name="negative">-</string>
+    <string name="_0_0">0.0</string>
+    <string name="description">Description</string>
+
+
+    <!--Planner-->
+    <string name="schedule_a_plane">Schedule a meeting or future plan.</string>
+    <string name="what_makes_tomorrow_a_better_day">What makes \ntomorrow a \nbetter day?</string>
+    <string name="_12_00_pm">12:00 PM</string>
+    <string name="delayed_task_msg">"Your to-do list is growing, check out your pending plans.</string>
+    <string name="task_time">Task Time!</string>
+    <string name="completed">Completed</string>
+    <string name="one_h_delay">One hour delay</string>
+    <!--Notes-->
+    <string name="add_memo">Create a memo.</string>
+    <string name="simulate_">Your Memo:</string>
+    <string name="add_memo_hint">Write down, and share a memo.</string>
+    <string name="about_memo_content">Our goal is to create intelligent software that can handle all your weird quirks, obscure preferences, and memo-sharing needs.\n\nSchedule meetings and gather your ideas during the day.</string>
+    <string name="stored_local">Stored on your local database.</string>
+    <string name="stored_remote">Stored on a secured remote servers.</string>
+    <string name="search">Search…</string>
+
+</resources>

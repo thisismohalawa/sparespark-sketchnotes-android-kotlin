@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/matchMatchPadding_"
+    tools:context=".notes.NoteActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_container"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        style="@style/matchMatch_"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav_graph" />
+
+    <ProgressBar
+        android:id="@+id/progress_circular"
+        style="@style/progress_"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

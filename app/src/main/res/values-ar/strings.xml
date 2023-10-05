@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Paper Planner</string>
+    <string name="about">عن التطبيق</string>
+
+    <!--Login string-->
+    <string name="login">تسجيل الدخول ؟</string>
+    <string name="sign_in_">تسجيل الدخول ؟</string>
+    <string name="sign_out_">تسجيل الخروج ؟</string>
+    <string name="login_storage_status">التخزين&amp;\nتسجيل الدخول</string>
+    <string name="signed_in_successfully">تم التسجيل بنجاح.</string>
+    <string name="signed_out_title">تم تسجيل خروجك حاليًا.</string>
+    <string name="sync_success">تمت المزامنة بنجاح.</string>
+    <string name="error_sync">خطأ أثناء المزامنة.</string>
+    <string name="sign_in_storage_info">يتم تخزين البيانات الخاصة بك الآن على خوادمنا الخاصة, يمكنك تسجيل الخروج لاستخدام قاعدة البيانات المحلية الخاصة بجهازك, لكن لن تكون قادر علي مشاركة أوأستقبال البيانات وأيضا البيانات الخاصة بك ستفقد في حالة حدوث خطأ ما أو إلغاء تثبيت التطبيق.</string>
+    <string name="sign_out_storage_info">يتم تخزين البيانات الخاصة بك في قاعدة البيانات المحلية الخاصة بجهازك, يمكنك تسجيل الدخول لاستخدام خوادمنا التي تضمن الأمان والوصول في أي وقت من أي جهاز عبر بريدك الإلكتروني.</string>
+    <string name="cannot_sign_in">لا يمكن تسجيل الدخول الآن, سيتم استخدام البيانات المحلية الخاصة بجهازك.</string>
+
+
+    <!--Common-->
+    <string name="copy">نسخ</string>
+    <string name="copied">نثخ النص.</string>
+    <string name="confirm">تأكيد.</string>
+    <string name="update">حفظ</string>
+    <string name="delete">حذف بشكل نهائي</string>
+    <string name="login_required">تسجيل الدخول مطلوب.</string>
+    <string name="error_try_again">خطـأ حاول مرة أخري</string>
+    <string name="press_again_to_exit">أضغط رجوع مرة أخرى للخروج.</string>
+
+
+    <!--Note Details-->
+    <string name="shared">مشتركة.</string>
+    <string name="only_you">أنت فقط.</string>
+    <string name="shared_succ">نشرت بنجاح.</string>
+    <string name="shared_by">نشرت بواسطة:</string>
+    <string name="cannot_update_note">تعذر حفظ الملاحظة</string>
+    <string name="cannot_user_current_email">لا يمكن مشاركة المذكرة مع عنوان البريد الإلكتروني الخاص بك.</string>
+    <string name="invalid_email">عنوان بريد إلكتروني غير صالح.</string>
+    <string name="user_doesn_not_exist">المستخدم غير موجود في قاعدة البيانات الخاصة بنا.</string>
+    <string name="share_with_email">شارك مع friend@test.ab</string>
+    <string name="cancel_sharing">إلغاء المشاركة؟</string>
+    <string name="share_icon_hint">استخدم رمز \"إضافة\" إذا كنت تريد البدء في مشاركة المذكرة للعنوان المحدد.</string>
+    <string name="store_aa">أضافة \"Aa\" في قائمة المذكرات الخاصة بك؟</string>
+    <string name="follow_link">فتح الرابط</string>
+    <string name="view">عرض</string>
+    <string name="Invite">دعوة.</string>
+    <string name="invite_text">مرحبًا,أناأستخدم تطبيق Paper planner لمشاركة المذكرات.
+        \nhttps://play.google.com/store/apps/details?id=sparespark.sketchnotes</string>
+
+    <!--System-->
+    <string name="error_while_loading">خظأ أثناء عرض البيانات</string>
+    <string name="error_while_app_updating">خظأ أثناء تثبيت التطبيق</string>
+    <string name="share_content">مشاركة النص</string>
+    <string name="cannot_update_user">خطـأ حاول مرة أخري</string>
+    <string name="share_note_hint">شارك الملاحظات مع أي شخص, تسجيل الدخول مطلوب.</string>
+    <string name="go_on">تابع.</string>
+    <string name="Skip">تخطي.</string>
+    <string name="schedule_aa">جدولة \"Aa\" كحدث جديد في المستقبل ؟</string>
+    <string name="plan_scheduled_for">تم جدولة الحدث بتاريخ\n</string>
+
+    <!--Wallet-->
+    <string name="wallet">المحفظة</string>
+    <string name="store_0">تخزين 1.0 في محفظتك؟</string>
+    <string name="total_">الأجمالي: </string>
+    <string name="empty">فارغ!</string>
+    <string name="plus">+</string>
+    <string name="negative">-</string>
+    <string name="_0_0">0.0</string>
+    <string name="description">تفاصيل</string>
+
+
+    <!--Planner-->
+    <string name="schedule_a_plane">جدولة أجتماع أو خطة مستقبلية.</string>
+    <string name="what_makes_tomorrow_a_better_day">ما الذي يجعل يومك غدا أفضل ؟</string>
+    <string name="_12_00_pm">12:00 PM</string>
+    <string name="delayed_task_msg">"قائمة المهام الخاصة بك تتزايد ، تحقق من المهام المعلقة.</string>
+    <string name="task_time">وقت المهمة!</string>
+    <string name="completed">أكتملت</string>
+    <string name="one_h_delay">تأجيل ساعة</string>
+
+    <!--Notes-->
+    <string name="add_memo">أكتب ملاحظة</string>
+    <string name="simulate_">مزكرتك:</string>
+    <string name="add_memo_hint">قم بتدوين ومشاركة مذكرة مهمة.</string>
+    <string name="about_memo_content">
+        تطبيق يساعدك في التعامل مع جميع المراوغات الغريبة والتفضيلات الغامضة واحتياجات تدوين و مشاركةالملاحظات.
+        \n\nقم بجدولة المهام وأجمع أفكارك في اليوم.</string>
+    <string name="stored_local">مخزنة في قاعدة البيانات المحلية.</string>
+    <string name="stored_remote">مخزنة على خوادم بعيدة آمنة.</string>
+    <string name="search">أبحث عن…</string>
+
+
+</resources>

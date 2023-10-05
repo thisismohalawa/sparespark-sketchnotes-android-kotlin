@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/view_menu"
+        android:title="@string/view" />
+    <item
+        android:id="@+id/copy_menu"
+        android:title="@string/copy" />
+    <item
+        android:id="@+id/share_text_menu"
+        android:title="@string/share_content" />
+    <item
+        android:id="@+id/open_link_menu"
+        android:title="@string/follow_link" />
+    <item
+        android:id="@+id/delete_menu"
+        android:title="@string/delete" />
+</menu>
