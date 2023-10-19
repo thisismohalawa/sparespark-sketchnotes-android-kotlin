@@ -10,6 +10,7 @@ import android.webkit.URLUtil
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.PopupMenu
+import android.widget.RelativeLayout
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.lifecycle.MutableLiveData
@@ -37,10 +38,12 @@ class NoteListAdapter(
 
     class NoteViewHolder(root: View) : RecyclerView.ViewHolder(root) {
         var content: TextView = root.lbl_content
+        var title: TextView = root.lbl_title
         var owner: TextView = root.lbl_owner
         var date: TextView = root.lbl_date
         var cardview: CardView = root.content_card_view
         var iconImg: ImageView = root.img_option_menu
+        val noteInfoLayout: RelativeLayout = root.note_info_layout
     }
 
     class InfoViewHolder(root: View) : RecyclerView.ViewHolder(root) {
@@ -107,14 +110,16 @@ class NoteListAdapter(
         owner.text = getSharedInfoTitle(note.owner, this@setUpNoteViewItemHolder.itemView.context)
         cardview.setCardBackgroundColor(note.hexCardColor)
 
+        if (note.title.isNotBlank()) title.text = note.title else title.visible(false)
         if (URLUtil.isValidUrl(note.content)) content.setUpUrlText(note.content)
+        if (URLUtil.isValidUrl(note.title)) content.setUpUrlText(note.title)
 
         itemView.setOnClickListener {
             event.value = NoteListEvent.OnNoteItemClick(
                 note = note
             )
         }
-        iconImg.setOnClickListener {
+        noteInfoLayout.setOnClickListener {
             val popupMenu = PopupMenu(
                 itemView.context, iconImg
             )
@@ -126,6 +131,7 @@ class NoteListAdapter(
                         when (item?.itemId) {
                             R.id.view_menu -> event.value =
                                 NoteListEvent.OnNoteItemClick(note = note)
+
                             R.id.copy_menu -> it.actionCopyText(note.content)
                             R.id.share_text_menu -> it.actionShareText(note.content)
                             R.id.open_link_menu -> it.actionOpenUrl(note.content)
@@ -142,7 +148,7 @@ class NoteListAdapter(
     }
 
     private fun getSharedInfoTitle(
-        owner: String?, context: Context
+        owner: String?, context: Context,
     ): String = if (owner.isNullOrBlank()) context.getString(R.string.only_you)
     else context.getString(R.string.shared_by) + "\n" + owner
 

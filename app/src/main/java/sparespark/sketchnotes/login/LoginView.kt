@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.activity.addCallback
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.google.android.gms.auth.api.signin.GoogleSignIn
@@ -25,7 +24,7 @@ class LoginView : Fragment() {
     private lateinit var viewModel: LoginViewModel
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
+        inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?,
     ): View? = inflater.inflate(R.layout.login_view, container, false)
 
     override fun onStart() {
@@ -43,16 +42,13 @@ class LoginView : Fragment() {
         *
         * view
         * */
-        setUpViewListeners()
         viewModelObserver()
+        setUpViewListeners()
     }
 
     private fun setUpViewListeners() {
         btn_login.setClickListenerWithViewDelayEnabled {
             viewModel.handleEvent(LoginEvent.OnAuthButtonClick)
-        }
-        requireActivity().onBackPressedDispatcher.addCallback(this) {
-            startListActivity(activity)
         }
     }
 

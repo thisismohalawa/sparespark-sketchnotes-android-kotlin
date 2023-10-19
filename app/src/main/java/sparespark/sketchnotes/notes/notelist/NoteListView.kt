@@ -53,7 +53,7 @@ class NoteListView : Fragment(), View.OnClickListener {
     private fun onNoteItemClicked(note: Note) {
         when (note.pos) {
             ADD_NEW_NOTE_POS_ID -> navigateToNoteDetailWithArgs(newNote(null))
-            ABOUT_APP_POS_ID -> activity?.makeToast(getString(R.string.about))
+            ABOUT_APP_POS_ID -> {}
             SIGN_POS_ID -> navigateToLoginView()
             else -> navigateToNoteDetailWithArgs(note = note)
         }

@@ -158,7 +158,7 @@ class NoteViewModel(
                 INVALID_ADDRESS -> handleError(R.string.invalid_email)
                 SIGN_IN_NOT_COMPLETED -> actionLoginAttempt.value = Unit
                 MATCHED_ADDRESS -> handleError(R.string.cannot_user_current_email)
-                else -> handleError()
+                else -> actionInviteAttempt.value = Unit
             }
 
             is DataResult.Value -> if (result.value == null) {

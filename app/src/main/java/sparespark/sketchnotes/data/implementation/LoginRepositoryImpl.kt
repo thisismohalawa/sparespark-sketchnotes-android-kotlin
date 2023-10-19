@@ -15,7 +15,8 @@ import sparespark.sketchnotes.data.model.user.User
 import sparespark.sketchnotes.data.repository.LoginRepository
 
 class LoginRepositoryImpl(
-    private val userDao: UserDao, private val auth: FirebaseAuth = FirebaseAuth.getInstance()
+    private val userDao: UserDao,
+    private val auth: FirebaseAuth = FirebaseAuth.getInstance()
 ) : LoginRepository {
 
     private suspend fun isSignedIn(): DataResult<Exception, Boolean> = DataResult.build {

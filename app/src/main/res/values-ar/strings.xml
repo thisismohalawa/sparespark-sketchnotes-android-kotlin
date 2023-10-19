@@ -33,6 +33,7 @@
     <string name="shared_succ">نشرت بنجاح.</string>
     <string name="shared_by">نشرت بواسطة:</string>
     <string name="cannot_update_note">تعذر حفظ الملاحظة</string>
+    <string name="could_not_get_shared_user_data">تعذر الوصول لبيانات المستخدم.</string>
     <string name="cannot_user_current_email">لا يمكن مشاركة المذكرة مع عنوان البريد الإلكتروني الخاص بك.</string>
     <string name="invalid_email">عنوان بريد إلكتروني غير صالح.</string>
     <string name="user_doesn_not_exist">المستخدم غير موجود في قاعدة البيانات الخاصة بنا.</string>
@@ -57,26 +58,6 @@
     <string name="schedule_aa">جدولة \"Aa\" كحدث جديد في المستقبل ؟</string>
     <string name="plan_scheduled_for">تم جدولة الحدث بتاريخ\n</string>
 
-    <!--Wallet-->
-    <string name="wallet">المحفظة</string>
-    <string name="store_0">تخزين 1.0 في محفظتك؟</string>
-    <string name="total_">الأجمالي: </string>
-    <string name="empty">فارغ!</string>
-    <string name="plus">+</string>
-    <string name="negative">-</string>
-    <string name="_0_0">0.0</string>
-    <string name="description">تفاصيل</string>
-
-
-    <!--Planner-->
-    <string name="schedule_a_plane">جدولة أجتماع أو خطة مستقبلية.</string>
-    <string name="what_makes_tomorrow_a_better_day">ما الذي يجعل يومك غدا أفضل ؟</string>
-    <string name="_12_00_pm">12:00 PM</string>
-    <string name="delayed_task_msg">"قائمة المهام الخاصة بك تتزايد ، تحقق من المهام المعلقة.</string>
-    <string name="task_time">وقت المهمة!</string>
-    <string name="completed">أكتملت</string>
-    <string name="one_h_delay">تأجيل ساعة</string>
-
     <!--Notes-->
     <string name="add_memo">أكتب ملاحظة</string>
     <string name="simulate_">مزكرتك:</string>
@@ -87,6 +68,7 @@
     <string name="stored_local">مخزنة في قاعدة البيانات المحلية.</string>
     <string name="stored_remote">مخزنة على خوادم بعيدة آمنة.</string>
     <string name="search">أبحث عن…</string>
+    <string name="description">تفاصيل</string>
 
 
 </resources>

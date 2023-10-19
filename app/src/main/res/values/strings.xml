@@ -45,7 +45,7 @@
     <string name="follow_link">Follow Link</string>
     <string name="view">View</string>
     <string name="Invite">Invite.</string>
-    <string name="invite_text">Hey, I am using paper planner mobile application for memo sharing, please download the app to get in touch with you.
+    <string name="invite_text">Hey, I am using paper planner mobile application for memo sharing, please download the app to get in touch.
         \nhttps://play.google.com/store/apps/details?id=sparespark.sketchnotes</string>
 
 
@@ -63,25 +63,10 @@
     <!--Login-->
 
 
-    <!--Wallet-->
-    <string name="wallet">Wallet</string>
-    <string name="store_0">Store \"0.0\" on your wallet?</string>
-    <string name="total_">Total:\t</string>
-    <string name="empty">Empty!</string>
-    <string name="plus">+</string>
-    <string name="negative">-</string>
-    <string name="_0_0">0.0</string>
-    <string name="description">Description</string>
 
 
-    <!--Planner-->
-    <string name="schedule_a_plane">Schedule a meeting or future plan.</string>
-    <string name="what_makes_tomorrow_a_better_day">What makes \ntomorrow a \nbetter day?</string>
-    <string name="_12_00_pm">12:00 PM</string>
-    <string name="delayed_task_msg">"Your to-do list is growing, check out your pending plans.</string>
-    <string name="task_time">Task Time!</string>
-    <string name="completed">Completed</string>
-    <string name="one_h_delay">One hour delay</string>
+
+
     <!--Notes-->
     <string name="add_memo">Create a memo.</string>
     <string name="simulate_">Your Memo:</string>
@@ -90,5 +75,6 @@
     <string name="stored_local">Stored on your local database.</string>
     <string name="stored_remote">Stored on a secured remote servers.</string>
     <string name="search">Search…</string>
+    <string name="description">Description</string>
 
 </resources>
